@@ -12,7 +12,7 @@ function timeClock(){
         ses.innerText= ' AM'
     }
     if(h>12){
-        h=-12;
+        h=h-12;
     }
 }
 
